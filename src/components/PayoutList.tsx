@@ -27,7 +27,6 @@ const PayoutList: React.FC<PayoutListProps> = ({
   searchDone,
   handlePageChange,
 }) => {
-  console.log('---payouts', payouts, searchedPayouts);
   if (searchDone && searchedPayouts.length === 0) {
     return (
       <>

@@ -153,12 +153,10 @@ export const Payouts = () => {
         
         const response = await fetch(`https://theseus-staging.medley.gg/api/v1/analytics/tech-test/search?query=${searchTerm}`);
         const data = await response.json();     
-        console.log('-----', page, limit);
         setsearchedPayouts(data);
         if(data && data.length){
           setPayouts(data.slice(0, limit));  
         }
-        console.log('--- payouts', payouts)
         setTotalCount(data.length);  
        
 
