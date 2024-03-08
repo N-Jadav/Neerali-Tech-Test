@@ -26,6 +26,9 @@ To run the application locally, follow these steps:
 
 1. Clone the repository using the `git clone` command.
 2. Run `npm install` to install all dependencies.
-3. Execute `npm run dev` to start the application.
+3. Open the following Url in the browser :
+    1. https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/payouts
+    2. Authorise the unprotected access to the API as the SSL authorization is not valid 
+4. Execute `npm run dev` to start the application.
 
 Feel free to explore the Payouts Application and utilize its features for a seamless experience in managing and viewing payout data.
